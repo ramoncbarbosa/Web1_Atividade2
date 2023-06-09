@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor-um: #251B37;
+    --cor-dois
+}
+
+body {
+    width: 85%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #251B37;
+    color: #FFFFFF;
+    margin-left: 8%;
+}
+
+.cabecalho{
+    width: 100%;
+}
+
+.conteudo_main{
+    margin: 10%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    justify-content: flex-start;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+
+.conteudo{
+    width: 80%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+}
+
+.conteudo_h1{
+    font-size: 25px;
+    color: #FFFFFF;
+    
+}
+
+.conteudo_p{
+    font-size: 16px;
+    align-items: center;
+    
+}
+
+.redes{
+    width: 10%;
+    
+    font-size: 18px;
+    font-weight: 600;
+
+    text-align: center;
+    text-decoration: none;
+
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+
+.redes_github{
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 12px;
+    display: inline;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.redes_linkedin {
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 12px;
+    display: inline;
+    margin-bottom: 30px;
+    margin: 30px;
+}
+
+
+.perfil{
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    margin: 5%;
+}
