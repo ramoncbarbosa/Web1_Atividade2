@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --cor-um: #176FA2;
+    --cor-dois: #EEEEEE;
+    --cor-tres: #000000;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 6vh;
+    padding: 2% 0 0 10%
+    gap: 5rem;
+    display: flex;
+    background-color: var(--cor-um);
+}
+
+.principal{
+    justify-content: center;
+}
+
+.principal__titulo{
+    text-align: center;
+    justify-content: center;
+}
+
+.principal__texto{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    pad
+}
+
+.imagem{
+    
+}
+
+.rodape{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    background-color: var(--cor-um);
+}

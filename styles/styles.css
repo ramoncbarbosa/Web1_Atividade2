@@ -1,112 +1,165 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    gap: 0;
 }
 
 :root{
-    --cor-um: rgb(23, 111, 162);
+    --cor-um: #43b4bf;
     --cor-dois: #EEEEEE;
     --cor-tres: #000000;
+    --color-gradiente: linear-gradient(45deg,#65c4cd, #128590, #005259);
 }
 
-body {
+body{
     width: 100%;
-    height: 100vh;
-    box-sizing: border-box;  
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column; 
+    height: 80vh;
+    box-sizing: border-box;
     background-color: var(--cor-tres);
+    color: var(--cor-dois);
 }
 
 .cabecalho{
-    width: 100%;
-    height: 10%;
-    background-color: var(--cor-um);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    position: fixed;
-}
-
-.conteudo_main{
-    margin: 10%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    
-
-    width: 60%;
-    margin-left: 20%;
-
-    border: 2px solid var(--cor-um);
-    border-radius: 12px;
     /*
-    justify-content: space-between;
-    background-color: var(--cor-tres);
-    border-radius: 15px;
-    */
-}
-
-
-.conteudo{
     width: 100%;
-    justify-content: flex-start;
-    align-items: center;
-    color: var(--cor-dois);
-    box-sizing: content-box;
-
-}
-
-.conteudo_h1{
-    font-size: 30px;
-    color: var(--cor-dois);
-    text-align: center;
+    height: 6vh;
+    padding: 2% 0 0 10%;
+    gap: 5rem;
+    display: flex;
+    background-image: var(--color-gradiente);
+    */
+    padding: 1%;
+    background-image: var(--color-gradiente);
     
 }
 
-.conteudo_p{
-    font-size: 16px;
+.cabecalho_nav{
+    justify-content: center;
+    gap: 3.5rem;
+    display: flex;
     align-items: center;
-    text-align: start;
-    margin-left: 5%;
-    
 }
 
-.redes{
-    font-size: 18px;
-    font-weight: 600;
-    padding-top: 10%;
-    text-align: center;
-    gap: 1em;
-}
-
-
-#redes_github,
-#redes_linkedin{
-    border: 2px solid var(--cor-um);
-    border-radius: 12px;
-    color: var(--cor-um);
-    padding: 12px;
-    display: inline;
-    margin-bottom: 30px;
-    padding: 10px;
+.cabecalho_opcoes{
     text-decoration: none;
+    color: var(--cor-dois);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 5% 10%;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.perfil{
-    width: 20rem;
-    height: 20rem;
+.principal__principal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.principal__titulo{
+    text-align: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.azul{
+    color: var(--cor-um);
+}
+
+.principal__texto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5% 2%;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.principal__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.secundario__titulo{
+    margin-bottom: 4%;
+}
+
+
+#github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     border: 2px solid var(--cor-um);
-    border-radius: 20px;
-    margin: 5%;
-    box-sizing: content-box;
+    border-radius: 0.4rem;
+    width: 100%;
+    text-decoration: none;
+    padding: 1rem 0;
+    margin-bottom: 2%;
+    color: var(--cor-um);
+}
+
+#linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid var(--cor-um);
+    border-radius: 0.4rem;
+    width: 100%;
+    text-decoration: none;
+    padding: 1rem 0;
+    margin-bottom: 2%;
+    color: var(--cor-um);
+}
+
+#lattes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid var(--cor-um);
+    border-radius: 0.4rem;
+    width: 100%;
+    text-decoration: none;
+    padding: 1rem 0;
+    color: var(--cor-um);
+}
+
+.imagem{
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.8rem;
+    border: 2px solid var(--cor-um);
 }
 
 .rodape{
     width: 100%;
-    height: 10%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-um);
+}
+
+.rodape__rodape{
+    text-align: center;
+    padding: 1.5%;
 }

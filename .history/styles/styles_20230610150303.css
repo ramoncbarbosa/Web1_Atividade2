@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-um: #176FA2;
+    --cor-dois: #EEEEEE;
+    --cor-tres: #000000;
+}
+
+.cabecalho{
+
+}
+
+.principal{
+    justify-content: center;
+}
+
+.principal__
